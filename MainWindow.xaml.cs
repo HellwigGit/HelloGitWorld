@@ -27,8 +27,8 @@ namespace HelloGitWorld
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            grid.Background = new SolidColorBrush(Colors.Red);
-            button.Content = "Goodbye Test, Git!!!";
+            grid.Background = new SolidColorBrush(Colors.Green);
+            button.Content = "Hello World, Git!!!";
             button.IsEnabled = false;
         }
     }
